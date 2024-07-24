@@ -16,6 +16,7 @@ class DiemSpider(scrapy.Spider):
     def start_requests(self):
         base_url = 'https://vtvapi3.vtv.vn/handlers/timdiemthi.ashx?keywords='
         for sbd in list(range(50000001, 50016514  + 1)) + list(range(51000001, 51020308 + 1)) + list(range(52000001, 52012672 + 1)) + list(range(53000001, 53016316 + 1)) + list(range(54000001, 54015067 + 1)) + list(range(55000001, 55012886 + 1)) + list(range(56000001, 56012182 + 1)) + list(range(57000001, 57010935 + 1)) + list(range(58000001, 58009706 + 1)) + list(range(59000001, 59010680 + 1)) + list(range(60000001, 60006413 + 1)) + list(range(61000001, 61010182 + 1)) + list(range(62000001, 62007277 + 1)) + list(range(63000001, 63007704 + 1)) + list(range(64000001, 64007286 + 1)): # Điều chỉnh dải số báo danh theo nhu cầu
+            #sbd mọi người có thể thay đổi khoảng để cào dữ liệu sbd thích hợp
             url = f'{base_url}{sbd:08d}'
             yield scrapy.Request(url, callback=self.parse)
 
