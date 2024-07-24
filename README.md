@@ -92,3 +92,8 @@ Tập tin này chứa Scrapy spider dùng để cào dữ liệu điểm thi t�
 ## Giấy Phép
 
 Dự án này được cấp phép theo Giấy phép MIT. Xem tệp LICENSE để biết thêm chi tiết.
+
+## Góp Ý
+Mọi ý kiến đóng góp vui lòng gửi đến email: [Nguyen.NP227138@sis.hust.edu.vn] hoặc [nguyen.nguyenphuc.dev@gmail.com].
+Mình xin cám ơn !
+
