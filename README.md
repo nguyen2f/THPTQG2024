@@ -50,7 +50,7 @@ diemthi/
 2. **Chạy Scrapy spider:**
 
     ```bash
-    scrapy runspider diem_spider.py -o diemthi.json
+    scrapy crawl diem_spider -o diemthi.json
     ```
 
     Lệnh này sẽ bắt đầu chạy spider và lưu dữ liệu cào được vào file `diemthi.json`.
